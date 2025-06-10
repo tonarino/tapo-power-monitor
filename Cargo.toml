@@ -1,0 +1,15 @@
+[package]
+name = "tapo-power-monitor"
+description = "Utility to measure and monitor power consuption with Tp-Link Tapo smart plugs. "
+authors = ["Jen koutny <jen@tonari.no>"]
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.40", features = ["derive", "env", "wrap_help"] }
+console = "0.15.11"
+indicatif = "0.17.11"
+tapo = "0.8.2"
+textplots = "0.8.7"
+tokio = { version = "1.45.1", features = ["full"] }
