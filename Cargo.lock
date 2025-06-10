@@ -1602,6 +1602,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "tapo-power-monitor"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "console",
+ "indicatif",
+ "tapo",
+ "textplots",
+ "tokio",
+]
+
+[[package]]
 name = "terminal_size"
 version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1709,19 +1722,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "tonari-tapo"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "console",
- "indicatif",
- "tapo",
- "textplots",
- "tokio",
 ]
 
 [[package]]

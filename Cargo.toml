@@ -1,6 +1,6 @@
 [package]
-name = "tonari-tapo"
-description = "A utility to measure tonari power consuption with Tp-Link Tapo smart plugs"
+name = "tapo-power-monitor"
+description = "Utility to measure and monitor power consuption with Tp-Link Tapo smart plugs. "
 authors = ["Jen koutny <jen@tonari.no>"]
 version = "0.1.0"
 edition = "2024"
